@@ -1,18 +1,15 @@
-body {
-    background-color: tomato;
+.cointaner-fluid {
+    background-color: black;
 }
 
-@media screen and (min-width: 576px) {
-    body {
-        background-color: turquoise;
-    }
-}  
-    @media screen and (min-width: 950px) {
-        body{
-            background-color: red;
-        }
+.linha {
     
-        
-    }
-        
-    ]
+    background-color: chocolate;
+}
+.coluna1 {
+
+    background-color: crimson;
+}
+.coluna2 {
+    background-color: cyan;
+}
