@@ -1,0 +1,44 @@
+$corRoxa : blueviolet;
+$corAzul : blue;
+$corAmerelo: yellow;
+$corCoral: coral;
+
+@mixin linhaDefault($pos) {
+    margin: 5px;
+    height: 100px;
+    justify-content: $pos;
+    .coluna1 {    
+        &:hover {
+            background-color: $corAmerelo;
+        }
+    }
+    
+}
+
+
+.linha1 {
+    @include linhaDefault(flex-start);
+}
+.linha2 {
+    @include linhaDefault(center);
+    
+}
+.linha3 {
+    @include linhaDefault(flex-end);
+    
+}
+
+
+
+.coluna1 {
+    background-color: red;
+}
+
+
+.coluna2 {
+    background-color: blue;
+}
+
+.coluna3 {
+    background-color: blueviolet;
+}

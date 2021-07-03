@@ -1,15 +1,48 @@
-.cointaner-fluid {
-    background-color: black;
+.linha1 {
+  margin: 5px;
+  height: 100px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
-.linha {
-    
-    background-color: chocolate;
+.linha1 .coluna1:hover {
+  background-color: yellow;
 }
+
+.linha2 {
+  margin: 5px;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.linha2 .coluna1:hover {
+  background-color: yellow;
+}
+
+.linha3 {
+  margin: 5px;
+  height: 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.linha3 .coluna1:hover {
+  background-color: yellow;
+}
+
 .coluna1 {
+  background-color: red;
+}
 
-    background-color: crimson;
-}
 .coluna2 {
-    background-color: cyan;
+  background-color: blue;
 }
+
+.coluna3 {
+  background-color: blueviolet;
+}
+/*# sourceMappingURL=styles.css.map */
