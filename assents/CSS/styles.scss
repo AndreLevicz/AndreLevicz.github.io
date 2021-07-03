@@ -1,44 +1,9 @@
-$corRoxa : blueviolet;
-$corAzul : blue;
-$corAmerelo: yellow;
-$corCoral: coral;
-
-@mixin linhaDefault($pos) {
-    margin: 5px;
-    height: 100px;
-    justify-content: $pos;
-    .coluna1 {    
-        &:hover {
-            background-color: $corAmerelo;
-        }
+.canvasContainer {
+    text-align: center;
+    canvas {
+        border-style: solid;
+        border-color: black;
+        border-width: 3px;
+        box-shadow: 10px 10px 10px black;
     }
-    
-}
-
-
-.linha1 {
-    @include linhaDefault(flex-start);
-}
-.linha2 {
-    @include linhaDefault(center);
-    
-}
-.linha3 {
-    @include linhaDefault(flex-end);
-    
-}
-
-
-
-.coluna1 {
-    background-color: red;
-}
-
-
-.coluna2 {
-    background-color: blue;
-}
-
-.coluna3 {
-    background-color: blueviolet;
 }

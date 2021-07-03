@@ -1,48 +1,12 @@
-.linha1 {
-  margin: 5px;
-  height: 100px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+.canvasContainer {
+  text-align: center;
 }
 
-.linha1 .coluna1:hover {
-  background-color: yellow;
-}
-
-.linha2 {
-  margin: 5px;
-  height: 100px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.linha2 .coluna1:hover {
-  background-color: yellow;
-}
-
-.linha3 {
-  margin: 5px;
-  height: 100px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.linha3 .coluna1:hover {
-  background-color: yellow;
-}
-
-.coluna1 {
-  background-color: red;
-}
-
-.coluna2 {
-  background-color: blue;
-}
-
-.coluna3 {
-  background-color: blueviolet;
+.canvasContainer canvas {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
 }
 /*# sourceMappingURL=styles.css.map */
